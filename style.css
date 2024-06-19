@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 0.2em;
+    width: 100%;
+}
+/* part1 */
+.top{
+    width: 100%;
+    height: 14.5em;
+    background-color: #002145;
+    display: flex;
+    padding: 1em 5em;
+    column-gap: 1em;
+}
+.img{
+    float:left;
+    margin-top: 20px;
+}
+.name{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name h2{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.orange{
+    color: orange;
+}
+.gap{
+    height: 0.1em;
+    width: 100%;
+    background-color: white;
+}
+/* part2 */
+nav{ 
+    width: 100%;
+    background-color: #000033;
+    height: 2.5em;
+    line-height: 2.5em;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #002145;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    background-color: #002145;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+/* part3 */
+.middle{
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    border: 1px solid black;
+}
+.image-slide img{
+    height: 450px;
+}
+.notice{
+    height: 450px;
+    overflow: hidden;
+    background-color: #ccdc3987;
+}
+.notice .imit{
+    background-color: #CDDC39;
+    z-index: 1;
+    padding: 0.2em 0em;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+marquee{
+    height: 400px;
+}
+.gap3{
+    margin-top: -1em;
+    height: 0.05em;
+    background-color: black;
+}
+.notice ul a{
+    text-decoration: none;
+    position: relative;
+    color: rgb(47, 7, 247);
+}
+.notice ul{
+    padding: 0em 1.5em;
+}
+/* part4 */
+.message{
+    display: grid;
+    grid-template-columns: 65fr 35fr;
+    gap: 0.1em;
+    width: 100%;
+}
+.left{
+    padding: 2em;
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    height: 100%;
+}
+.left .bold{
+    font-weight: bolder;
+}
+.red{
+    color: red;
+    font-weight: 600;
+}
+.right{
+    padding: 2em;
+    border: 1px solid blue;
+    height: 100%;
+}
+.right .yellow{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: #CDDC39;
+}
+.right img{
+    height: 100px;
+    width: 100px;
+}
+.sahoo{
+    font-weight: 500;
+    margin-top: 1.5em;
+    font-size: 14px;
+}
+.amit{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+}
+ul li{
+    font-weight: 500;
+}
+/* part5 */
+.bottom{
+    background-color: rgb(25, 5, 100);
+    padding: 1em 3em;
+    margin-bottom: 40px;
+}
+.information{
+    display: grid;
+    color: white;
+    text-decoration: none;
+    grid-template-columns: 1fr 1fr;
+}
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-decoration: none;
+    padding-top: 2em;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.gap1{
+    width: 80%;
+    height: 0.1em;
+    background-color: #fff;
+}
+.orange1{
+    color: orange;
+}
+.address{
+    padding-top: 2em;
+    font-weight: 500;
+}
+.address img{
+    height: 28px;
+}
+.gap2{
+    width: 100%;
+    height: 0.1em;
+    background-color: #fff;
+}
+.last{
+    color: white;
+    text-align: center;
+}
+.last a{
+    color: red;
+}

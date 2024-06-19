@@ -1,0 +1,112 @@
+@media(max-width:600px){
+    .name h2{
+        font-size: 10px;
+    }
+    .name{
+        font-size: 8px;
+    }
+    .name img{
+        width: 200px;
+        height: 16px;
+    }
+    .top{
+        height: 6.2em;
+        column-gap: 1px;
+        padding-right: 0em;
+        padding-top: 0.4em;
+        justify-content: space-around;
+    }
+    .img img{
+        margin-left: -60px;
+        height: 50px;
+    }
+    nav ul li a{
+        font-size: 7px;
+    }
+    nav ul li{
+        margin-left: -40px;
+    }
+    nav{
+        height: 1.4em;
+        line-height: 1.4em;
+    }
+    .image-slide img{
+        height: 210px;
+    }
+    .notice{
+        height: 210px;
+    }
+    marquee{
+        height: 220px;
+    }
+    .notice .imit{
+        font-size: 14px;
+    }
+    .notice ul{
+        font-size: 7px;
+    }
+    .left{
+        padding: 0.7em;
+    }
+    .left .bold{
+        font-weight: bold;
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    .red{
+        margin-bottom: 5px;
+    }
+    .message ul li{
+        padding-right: 0;
+        font-size: 7px;
+    }
+    .right{
+        padding: 0.7em;
+    }
+    .right .yellow{
+        font-size: 0.6em;
+        font-weight: 700;
+    }
+    .right img{
+        height: 40px;
+        width: 40px;
+    }
+    .sahoo{
+        font-weight: 700;
+        font-size: 7px;
+    }
+    .amit{
+        font-size: 7px;
+        font-weight: 700;
+    }
+    .orange1{
+        font-size: 18px;
+    }
+    .links li{
+        font-size: 6.8px;
+    }
+    .links{
+        margin-top: -10px;
+    }
+    .information{
+        grid-template-columns: 1fr 1fr;
+    }
+    .address{
+        font-size: 9px;
+    }
+    .address img{
+        height: 15px;
+    }
+    .gap2{
+        margin-top: 4px;
+    }
+    .last{
+        font-size: 6px;
+    }
+    .z{
+        height: 8px;;
+    }
+    .bottom{
+        margin-bottom: 20px;
+    }
+}
